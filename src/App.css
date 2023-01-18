@@ -1,0 +1,17 @@
+.App {
+  background-image: url(./assets/images/bg-pattern.svg);
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.background-circles {
+  background-image: url(./assets/images/pattern-circles.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.customRange::-webkit-slider-thumb {
+  background-image: url(./assets//images/icon-slider.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}

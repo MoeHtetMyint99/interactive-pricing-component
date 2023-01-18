@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Manrope;
+  src: url(./assets/fonts/Manrope-ExtraBold.ttf);
+  font-weight: 800;
+}
+@font-face {
+  font-family: Manrope;
+  src: url(./assets/fonts/Manrope-SemiBold.ttf);
+  font-weight: 600;
+}
+
+:root {
+  --cyan-300: 174 76% 80%;
+  --cyan-500: 174 86% 45%;
+
+  --red-300: 13 92% 95%;
+  --red-500: 15 100% 70%;
+
+  --blue-400: 226 100% 87%;
+  --blue-100: 228 100% 99%;
+
+  --blue-300: 226 68% 95%;
+  --blue-310: 222 49% 87%;
+
+  --blue-800: 225 20% 60%;
+  --blue-900: 227 35% 25%;
+
+  font-family: Manrope, sans-serif;
+  font-size: 16px;
+}
+
+* {
+  font-family: inherit;
+  font-weight: 600;
+  color: hsl(var(--blue-800));
+}
+
+img {
+  display: inline-block;
+}
+
+a {
+  color: hsl(228, 45%, 44%);
+}
+
+a:hover,
+a:focus {
+  color: hsl(228, 45%, 60%);
+}

@@ -7,7 +7,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="App relative bg-blue-100 min-h-screen flex flex-col justify-start items-center py-[90px] px-[25px] lg:py-[67px]">
+    <main className="App relative bg-blue-100 min-h-screen flex flex-col justify-start items-center py-[90px] px-[25px] lg:py-[67px]">
       <Heading />
       <Card />
       <div className="absolute bottom-5 left-1/2 -translate-x-1/2 text-[0.6875rem] text-center">
@@ -24,7 +24,7 @@ function App() {
         </a>
         .
       </div>
-    </div>
+    </main>
   );
 }
 

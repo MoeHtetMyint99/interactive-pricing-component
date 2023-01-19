@@ -5,7 +5,7 @@ export default function UpperCard() {
   return (
     <div className="relative flex flex-col pt-[34px] pb-[40px] px-[11px] h-auto lg:py-[40px] lg:px-[35px] lg:h-[260px]">
       <div className="flex flex-col gap-[90px] items-center lg:flex-row lg:justify-between">
-        <div className="font-extrabold text-[0.75rem] lg:text-[0.875rem]">
+        <div className="font-extrabold text-[0.75rem] tracking-[0.14em] lg:text-[0.875rem]">
           100K PAGEVIEWS
         </div>
         <h2 className="flex items-center">

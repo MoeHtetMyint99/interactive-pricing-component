@@ -17,7 +17,6 @@ export default function InputRange() {
       <input
         className="customRange w-full rounded-full appearance-none h-[7px] bg-blue-300 cursor-pointer thumb:appearance-none thumb:w-[40px] thumb:h-[40px] thumb:rounded-full thumb:bg-cyan-500/80 thumb:relative thumb:z-[11] thumb:cursor-pointer thumb:thumb-shadow thumb:hover:bg-cyan-500/60 thumb:active:bg-cyan-500"
         type="range"
-        name=""
         id="myRange"
         value={val}
         min="0"
